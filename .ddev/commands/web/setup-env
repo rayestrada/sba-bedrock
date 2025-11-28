@@ -1,0 +1,38 @@
+#!/bin/bash
+
+## Description: Configure .env file for local development
+## Usage: setup-env
+## Example: "ddev setup-env"
+
+if [ ! -f .env ]; then
+    # Create .env with essential variables
+    cat > .env << EOF
+WP_ENV=development
+WP_HOME='https://${DDEV_SITENAME}.${DDEV_TLD}'
+WP_SITEURL=\${WP_HOME}/wp
+
+DB_NAME=db
+DB_USER=db
+DB_PASSWORD=db
+DB_HOST=db
+
+EOF
+    echo "✓ Created .env with default configuration"
+else
+    echo "⚠ .env already exists, updating values..."
+    # Update existing environment variables
+    wp dotenv set WP_ENV development
+    wp dotenv set WP_HOME "https://${DDEV_SITENAME}.${DDEV_TLD}"
+    wp dotenv set WP_SITEURL "\${WP_HOME}/wp"
+    wp dotenv set DB_NAME db
+    wp dotenv set DB_USER db
+    wp dotenv set DB_PASSWORD db
+    wp dotenv set DB_HOST db
+    echo "✓ Updated .env values"
+fi
+
+echo ""
+echo "✓ Environment variables configured for DDEV"
+echo ""
+echo "Your site URL: https://${DDEV_SITENAME}.${DDEV_TLD}"
+echo ""

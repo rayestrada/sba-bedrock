@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8db79a74cdc5dfabbd631a3b195da6ea",
+    "content-hash": "f6c91874bb62bc6d50d5d2fc9a89f192",
     "packages": [
         {
             "name": "composer/installers",
@@ -1015,6 +1015,186 @@
             "time": "2025-04-30T23:37:27+00:00"
         },
         {
+            "name": "wpackagist-plugin/block-visibility",
+            "version": "3.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/block-visibility/",
+                "reference": "tags/3.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/block-visibility.3.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/block-visibility/"
+        },
+        {
+            "name": "wpackagist-plugin/disable-search",
+            "version": "2.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-search/",
+                "reference": "tags/2.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-search.2.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-search/"
+        },
+        {
+            "name": "wpackagist-plugin/duracelltomi-google-tag-manager",
+            "version": "1.22.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/duracelltomi-google-tag-manager/",
+                "reference": "tags/1.22.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/duracelltomi-google-tag-manager.1.22.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/duracelltomi-google-tag-manager/"
+        },
+        {
+            "name": "wpackagist-plugin/inactive-logout",
+            "version": "3.6.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/inactive-logout/",
+                "reference": "tags/3.6.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/inactive-logout.3.6.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/inactive-logout/"
+        },
+        {
+            "name": "wpackagist-plugin/redirection",
+            "version": "5.5.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redirection/",
+                "reference": "tags/5.5.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.5.5.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redirection/"
+        },
+        {
+            "name": "wpackagist-plugin/sa11y",
+            "version": "1.2.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sa11y/",
+                "reference": "tags/1.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sa11y.1.2.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sa11y/"
+        },
+        {
+            "name": "wpackagist-plugin/twentig",
+            "version": "1.9.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/twentig/",
+                "reference": "tags/1.9.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/twentig.1.9.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/twentig/"
+        },
+        {
+            "name": "wpackagist-plugin/widget-for-eventbrite-api",
+            "version": "6.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/widget-for-eventbrite-api/",
+                "reference": "tags/6.4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/widget-for-eventbrite-api.6.4.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/widget-for-eventbrite-api/"
+        },
+        {
+            "name": "wpackagist-plugin/wordfence-login-security",
+            "version": "1.1.15",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordfence-login-security/",
+                "reference": "tags/1.1.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordfence-login-security.1.1.15.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordfence-login-security/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-swiper",
+            "version": "1.3.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-swiper/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-swiper.zip?timestamp=1763619661"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-swiper/"
+        },
+        {
             "name": "wpackagist-theme/twentytwentyfive",
             "version": "1.3",
             "source": {
@@ -1527,5 +1707,5 @@
         "php": ">=8.1"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
